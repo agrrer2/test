@@ -23,6 +23,7 @@ jobs:
       uses: shivammathur/setup-php@verbose
       with:
         php-version: ${{ matrix.php }}
+        extensions: xdebug
         coverage: xdebug
         
     - name: LALALA
